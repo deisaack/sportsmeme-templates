@@ -1,0 +1,12 @@
+{
+  "name": "sportsmeme",
+  "version": "0.0.0",
+  "scripts": {
+    "push": "scp -rv ./ addictaf@168.62.168.90:/home/addictaf/web/sportsmeme/f"
+  },
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,42 @@
+Arguments: 
+  /home/de/.nvm/versions/node/v10.3.0/bin/node /usr/share/yarn/bin/yarn.js .
+
+PATH: 
+  /home/de/.nvm/versions/node/v10.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/de/Android/Sdk/tools:/home/de/Android/Sdk/platform-tools:/home/de/Android/Sdk/tools/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  10.3.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/de/Documents/7/sportsmeme/package.json: Unexpected token } in JSON at position 147
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:98:30)
+      at /usr/share/yarn/lib/cli.js:109:13
+
+npm manifest: 
+  {
+    "name": "sportsmeme",
+    "version": "0.0.0",
+    "scripts": {
+      "push": "scp -rv ./ addictaf@168.62.168.90:/home/addictaf/web/sportsmeme/fe",
+    },
+    "private": true,
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
